@@ -1,0 +1,16 @@
+git checkout yourBranch
+
+git pull origin master
+
+git push origin HEAD
+
+
+git checkout yourBranch
+git pull origin HEAD
+HEAD means current branch's head
+then git pull origin master
+
+then push to HEAD
+git push origin HEAD
+then you can do PR from that branch to master
+

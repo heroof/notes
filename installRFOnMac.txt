@@ -1,0 +1,11 @@
+https://virtualenvwrapper.readthedocs.io/en/latest/install.html
+
+1 - `brew install python`
+2 - relogin to terminal so it will point to brew's python
+3 - `pip install virtualenv virtualenv-wrapper`
+4 - virtualenv-wrapper will drop a `mkvirtualenv` function script somewhere, need to source that in your `.bashrc` or `.zshrc`
+
+next time you can do `mkvirtualenv` and create python 2 or python 3 isolated environments
+using `workon` command you can switch to env like, `workon mySeleniumEnv`
+when you are in particular environment, pip commands will affect only that
+if you mess something up or it is broken, no need to worry, make new env
